@@ -6,7 +6,7 @@
      <div class="container-fluid py-1 px-3">
        <nav aria-label="breadcrumb">
          
-             <h6 class="font-weight-bolder mb-0">Edit Restaurant Owner </h6>
+             <h6 class="font-weight-bolder mb-0">Edit Restaurant Owner1234 </h6>
          
          </div>
        </nav>
