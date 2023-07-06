@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AutoGrill</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+<section class="first_banner">
+  <div class="auto_grill_wraps">
+    <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Italian <span class="image_flag"><img src="images/flag.png"></span>
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">English <span class="image_flag"><img src="images/flag.png"></span></a>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section class="wrap_welcome">
+  <div class="welcome_wraps">
+    <img src="images/logo.png" class="logo" alt="logo">
+    <h1>Welcome to traveler!</h1>
+  </div>
+</section>
+
+<section class="brings_you">
+  <div class="container">
+
+
+     <!--************************** slick slider ***********************************************-->
+          <div class="col-md-12 col-lg-12 col-sm-12">
+            <div class="row">
+              <div class="col-md-12 col-lg-12 col-sm-12">
+                <div class="realted_ads">
+                <link href="slick-new/slick.css" rel="stylesheet" />
+                <link href="slick-new/slick-theme.css" rel="stylesheet"/>
+                <div class="wraps_brings">
+                  <h3>What brings you here?</h3>
+                </div>
+                <div class="slick-carousels">
+                    <div class="wrapslider_item-cart">
+                      <a href="category.html"><div class="wraps-food">
+                        <img src="images/first.png" alt="Refreshment">
+                        <h5>Refreshment</h5></div>
+                      </a>                    
+                    </div>
+
+                    <div class="wrapslider_item-cart">
+                      <a href="category.html"><div class="wraps-food active">
+                        <img src="images/second.png" alt="Bar">
+                        <h5>Bar</h5></div>
+                      </a>
+                    </div>
+
+                    <div class="wrapslider_item-cart">
+                      <a href="category.html"><div class="wraps-food">
+                        <img src="images/third.png" alt="Expense">
+                        <h5>Expense</h5></div>
+                      </a>
+                    </div>
+
+                    <div class="wrapslider_item-cart">
+                      <a href="category.html"><div class="wraps-food">
+                        <img src="images/first.png" alt="Refreshment">
+                        <h5>Refreshment</h5></div>
+                      </a> 
+                    </div>
+                </div>
+                      
+                <script src="slick-new/jquery.min.js"></script>
+                <script src="slick-new/slick.min.js"></script>
+                <script type="text/javascript">
+                  $().ready(function(){
+                  $('.slick-carousels').slick({
+                    arrows: true,
+                    centerPadding: "20px",
+                    dots: false,
+                    infinite: true,
+                    slidesToShow: 3,
+                    cssEase: 'linear',
+                    loop: true,
+                    centerMode: false,
+                    autoplay: true,
+                autoplaySpeed: 6000,
+                     responsive: [
+                {
+                  breakpoint: 768,
+                  settings: {
+                  slidesToShow: 1,
+                  centerMode: false, /* set centerMode to false to show complete slide instead of 3 */
+                  slidesToScroll: 1
+                  }
+                }
+               ]
+                  });
+                });
+                </script>
+              </div>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <!--********************** slick slider end ********************************************-->
+    </div>
+  
+  <style type="text/css">
+    .wraps-food{
+      text-align: center;
+    }
+
+    .slick-slide img {
+      display: initial;
+  }
+
+  .wrapslider_item-cart {
+        margin: 0px 20px;
+    }
+
+  .slick-next:before{
+    color: #FB9400;
+    font-weight: bold;
+    font-size: 50px;
+  }
+</style>
+</section>
+</body>
+</html>
